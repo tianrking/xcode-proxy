@@ -38,9 +38,9 @@ graph TD
     Config -.->|加载规则| Router
     Router -->|匹配配置| Adapter
     
-    Adapter -->|转发| Cloud1[☁️ OpenRouter]
-    Adapter -->|转发| Cloud2[☁️ DeepSeek]
-    Adapter -->|转发| Cloud3[☁️ Zhipu AI (GLM)]
+    Adapter -->|转发| Cloud1["☁️ OpenRouter"]
+    Adapter -->|转发| Cloud2["☁️ DeepSeek"]
+    Adapter -->|转发| Cloud3["☁️ Zhipu AI (GLM)"]
     
     Cloud1 -->|Response| Adapter
     Adapter -->|Stream| Proxy
