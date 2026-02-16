@@ -8,9 +8,18 @@
 
 它的核心目标是 **解锁** 与 **连接**：让封闭的 Xcode 开发生态能够无缝对接 OpenRouter、DeepSeek、Anthropic 等任何强大的 AI 服务。
 
-<video src="assets/demo.mov" controls="controls" style="max-width: 100%;">
-  <a href="assets/demo.mov">Watch Demo Video</a>
+
+
+
+
+<video src="assets/demo.mp4" controls="controls" autoplay="autoplay" loop="loop" muted="muted" style="max-width: 100%;">
+  <a href="assets/demo.mp4">Watch Demo Video</a>
 </video>
+
+
+
+
+
 
 
 ---

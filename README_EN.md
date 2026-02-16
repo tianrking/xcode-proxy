@@ -8,9 +8,17 @@
 
 **Goal**: To **Unlock** and **Connect** the closed Xcode ecosystem with powerful, diverse AI services like OpenRouter, DeepSeek, Anthropic, and more.
 
-<video src="assets/demo.mov" controls="controls" style="max-width: 100%;">
-  <a href="assets/demo.mov">Watch Demo Video</a>
+
+
+
+
+<video src="assets/demo.mp4" controls="controls" autoplay="autoplay" loop="loop" muted="muted" style="max-width: 100%;">
+  <a href="assets/demo.mp4">Watch Demo Video</a>
 </video>
+
+
+
+
 
 
 ---
