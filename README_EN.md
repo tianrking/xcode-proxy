@@ -38,9 +38,10 @@ graph TD
     Config -.->|Load Rules| Router
     Router -->|Match Config| Adapter
     
-    Adapter -->|Forward| Cloud1[☁️ OpenRouter]
-    Adapter -->|Forward| Cloud2[☁️ DeepSeek]
-    Adapter -->|Forward| Cloud3[☁️ Zhipu AI (GLM)]
+
+    Adapter -->|Forward| Cloud1["☁️ OpenRouter"]
+    Adapter -->|Forward| Cloud2["☁️ DeepSeek"]
+    Adapter -->|Forward| Cloud3["☁️ Zhipu AI (GLM)"]
     
     Cloud1 -->|Response| Adapter
     Adapter -->|Stream| Proxy
@@ -121,11 +122,14 @@ api_base = "https://api.deepseek.com"
 
 ## 🛠️ Xcode Integration
 
-In your Xcode AI plugin or tool settings (e.g., Copilot for Xcode), configure as follows:
+**Example (Copilot for Xcode):**
 
-1.  **API Base URL**: `http://localhost:3000/v1`
-2.  **API Key**: Any string (e.g., `sk-proxy`), as the real key is managed by the proxy.
-3.  **Model Name**: The model ID defined in your `settings.toml` (e.g., `openrouter/free`).
+1.  Click **"Add Provider"** in the Host App.
+2.  Select **"Local"**.
+3.  Enter the server port (default `3000`) in the **Port** field.
+4.  Click **Save**.
+
+That's it! You can now access all models configured in `settings.toml` directly within Xcode.
 
 ---
 

@@ -121,11 +121,14 @@ api_base = "https://api.deepseek.com"
 
 ## 🛠️ Xcode 集成方法
 
-在您的 Xcode AI 插件或工具设置中（如 Copilot for Xcode），填写以下信息：
+**以 Copilot for Xcode 為例：**
 
-1.  **API Base URL**: `http://localhost:3000/v1`
-2.  **API Key**: 任意填写（例如 `sk-proxy`），因为真实 Key 已在代理中配置。
-3.  **Model Name**: 填写您在 `settings.toml` 中定义的模型 ID（如 `openrouter/free`）。
+1.  在 Host App 中點擊 **"Add Provider"** (添加服務商)。
+2.  選擇 **"Local"** (本地服務)。
+3.  在 **Port** (端口) 欄中輸入本服務的端口號（默認 `3000`）。
+4.  點擊 **Save**。
+
+現在，你在 Xcode 中就可以直接使用 `settings.toml` 裡配置的所有模型了！
 
 ---
 
