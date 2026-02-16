@@ -12,10 +12,10 @@
 
 
 
-<video src="assets/demo.mp4" controls="controls" autoplay="autoplay" loop="loop" muted="muted" style="max-width: 100%;">
-  <a href="assets/demo.mp4">Watch Demo Video</a>
-</video>
 
+
+
+https://github.com/user-attachments/assets/94fcf1e4-663d-4ebf-a131-42f45b32cd5c
 
 
 
