@@ -5,7 +5,13 @@
 
 **Xcode Proxy** is a lightweight, high-performance AI proxy server designed specifically for Xcode. It acts as a "Universal Adapter" between Xcode and modern AI models.
 
+
 **Goal**: To **Unlock** and **Connect** the closed Xcode ecosystem with powerful, diverse AI services like OpenRouter, DeepSeek, Anthropic, and more.
+
+<video src="assets/demo.mov" controls="controls" style="max-width: 100%;">
+  <a href="assets/demo.mov">Watch Demo Video</a>
+</video>
+
 
 ---
 
